@@ -1,0 +1,59 @@
+.navbar-background-img{
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 1070px) {
+ .main-logo-img{
+  width: 140px;
+  padding-bottom: 10px;
+ }
+}
+
+@media (min-width: 1050px) {
+  .main-logo-img{
+   width: 140px;
+   padding-bottom: 10px;
+  }
+ }
+@media (max-width: 999px) {
+    .icon {
+      display: none; 
+    }
+    
+    .main-logo-img{
+      width: 140px;
+      padding-bottom: 10px;
+     }
+  }
+  
+
+  @media (min-width: 1000px) {
+    .icon {
+      display: inline; 
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .main-logo-img{
+      width: 150px;
+      margin-top: 20px;
+    }
+  }
+
+
+  @media (max-width: 800px) {
+    .navbar-background-img{
+      justify-content: space-between;
+      padding: 0px 10px;
+    }
+  } 
+
+  @media screen and (max-width: 440px) {
+    .phone-nav{
+      font-size: 14px;
+    }
+  }
+
+  

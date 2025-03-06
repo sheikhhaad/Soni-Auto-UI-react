@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 3000px) {
+  .diewct-3000{
+    margin-top: 6%;
+  }
+}
+
+
+@media screen and (max-width: 2000px) {
+  .diewct-3000{
+    margin-top: 0%;
+  }
+}
+
+
+
+@media screen and (max-width: 1015px) {
+  .diret-wala{
+    width: 100%;
+  }
+
+  .ifram {
+    height: 400px;
+  }
+  }
+

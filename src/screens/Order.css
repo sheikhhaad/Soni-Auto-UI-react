@@ -1,0 +1,371 @@
+.order-l-img{
+    display: flex;
+}
+
+.order-left-sec-img{
+display: flex;
+}
+
+.left-inner{
+    display: flex;
+}
+
+.one-img{
+    position: relative;
+    cursor: pointer;
+}
+
+.text-img-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 10px 20px;
+}
+
+.one-img:hover .text-img-1{
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+.two-img{
+    position: relative;
+    cursor: pointer;
+}
+
+.text-img-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.167);
+}
+
+.two-img:hover .text-img-2{
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+.three-img{
+    position: relative;
+    cursor: pointer;
+}
+
+.text-img-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 10px 20px;
+
+    opacity: 0;
+}
+
+.three-img:hover .text-img-3{
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+
+.four-img{
+    position: relative;
+    cursor: pointer;
+}
+
+.text-img-4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 10px 20px;
+
+    opacity: 0;
+}
+
+.four-img:hover .text-img-4{
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+
+.five-img{
+    position: relative;
+    cursor: pointer;
+}
+
+.text-img-5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 10px 20px;
+
+    opacity: 0;
+}
+
+.five-img:hover .text-img-5{
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+
+
+.six-img{
+    position: relative;
+    cursor: pointer;
+}
+
+.text-img-6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 10px 20px;
+
+    opacity: 0;
+}
+
+.six-img:hover .text-img-6{
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+
+
+.search-part{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 3000px) {
+    .order-l-img{
+        display: flex;
+        width: 100%;
+    }
+
+    .one-img,.two-img,.three-img{
+    width: 100%;
+}
+
+
+.one-img img ,.two-img img,.three-img img  {
+    width: 100%;
+}
+
+.four-img{
+    width: 87.2%;
+}
+
+.four-img img{
+    width: 100%;
+}
+
+.left-inner{
+    width: 100%;
+}
+
+.five-img , .six-img{
+    width: 100%;
+}
+
+.five-img img ,.six-img img {
+    width: 100%;
+}
+    
+    .order-left-sec-img{
+    display: flex;
+    width: 100%;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 1650px) {
+    .order-l-img{
+        display: flex;
+        width: 100%;
+    }
+
+    .one-img,.two-img,.three-img{
+    width: 100%;
+}
+
+
+.one-img img ,.two-img img,.three-img img  {
+    width: 100%;
+}
+
+.four-img{
+    width: 87.1%;
+}
+
+.four-img img{
+    width: 100%;
+}
+
+.left-inner{
+    width: 100%;
+}
+
+.five-img , .six-img{
+    width: 100%;
+}
+
+.five-img img ,.six-img img {
+    width: 100%;
+}
+    
+    .order-left-sec-img{
+    display: flex;
+    width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width: 1440px) {
+    .four-img{
+        width: 87.14%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .text-img-2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: 700;
+    
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.167);
+    }
+
+    .text-img-4{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: 700;
+    
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.167);
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .text-img-2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.167);
+    }
+
+    .text-img-4{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.167);
+    }
+
+
+}
+
+
+@media screen and (max-width: 822px) {
+    .text-img-1,.text-img-2,.text-img-3,.text-img-4,.text-img-5,.text-img-6{
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 610px) {
+    .text-img-1,.text-img-2,.text-img-3,.text-img-4,.text-img-5,.text-img-6{
+        font-size: 18px;
+    }
+
+    .search-part{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .text-img-1,.text-img-2,.text-img-3,.text-img-4,.text-img-5,.text-img-6{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .text-img-1,.text-img-2,.text-img-3,.text-img-4,.text-img-5,.text-img-6{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .order-wala-btn{
+        font-size: 12px;
+    }
+
+    
+}

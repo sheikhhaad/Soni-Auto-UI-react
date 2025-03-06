@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 1350px) {
+    .info-text{
+      font-size: 14px;
+    }
+   }
+  
+  
+   @media screen and (max-width: 1160px) {
+   .card-bhai {
+    width: 350px;
+   }
+   }
+  
+  
+   @media screen and (max-width: 390px) {
+    .card-bhai {
+     width: 300px;
+    }
+  
+    .info-text{
+      font-size: 13px;
+    }
+    }

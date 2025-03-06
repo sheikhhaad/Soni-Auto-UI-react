@@ -1,0 +1,430 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+html{
+
+    font-family: "Open Sans", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    outline: none;
+    cursor: pointer;
+}
+
+.credit-div{
+    display: flex;
+    gap: 20px;
+}
+
+.keyword input::placeholder{
+    color: black;
+}
+
+.left-btn{
+    padding: 8px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+  
+
+   .icons-card i{
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+   }
+
+   .icons-card i:hover{
+    color: #F40000;
+    cursor: pointer;
+   }
+
+   .three-dots:hover{
+    color: #F40000;
+    cursor: pointer;
+   }
+
+   .font-wala-nav{
+    font-size: 17px;
+    font-weight: 600;
+   }
+
+   .toping-hover{
+    border-top: 3px solid #F40000;
+   }
+  
+   select:focus {
+    outline: 2px solid #007bff
+}
+
+
+.black-hover{
+
+    transition: .4s ease-in-out;
+}
+
+.black-hover:hover{
+background-color: black;
+color: white;
+border-color:black ;
+transition: .4s ease-in-out;
+}
+
+.red-hover{
+
+    transition: .4s ease-in-out;
+}
+
+.red-hover:hover{
+background-color: #F40000;
+color: white;
+border-color:#F40000 ;
+transition: .4s ease-in-out;
+}
+
+
+input:focus{
+    outline: 3px solid #8ec3fc;
+    border-radius: 2px;
+}
+
+.all-btn{
+    transition: .4s ease-in-out;
+    background-color: black;
+}
+.all-btn:hover{
+    transition: .4s ease-in-out;
+    background-color:#F40000 ;
+
+}
+
+select:hover {
+    border-bottom: 2px solid #F40000;
+}
+
+select:focus {
+    border-bottom: none;
+}
+
+
+textarea:focus {
+     outline: 3px solid #8ec3fc;
+    border-radius: 2px;
+}
+
+.focuss:hover{
+    outline: 3px solid #8ec3fc;
+    
+}
+
+.search-part{
+    background-color: #F40000;
+}
+
+
+.card-pr-hover:hover .hover-bg-red{
+    background-color: #F40000;
+    color: white;
+}
+
+.navbar-wala-bg{
+    background-color: black;
+    color: white;
+   }
+
+@media screen and (max-width:1100px) {
+   .left-side{
+    
+    width: 850px;
+    font-size: 15px;
+   }
+
+   .left-side h3{
+    font-size: 16px;
+    text-align: center;
+   }
+
+   .comparison-gp{
+    display: flex;
+    flex-direction: column;
+    padding:  5px 30px;
+   }
+   .compar-text{
+    text-align: center;
+   }
+
+
+   
+  
+   .credit-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .div-credit{
+    width: 100%;
+   }
+
+   .nav-1100{
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+   }
+
+
+   .navbar-wala-bg{
+    background-color: black;
+    color: white;
+   }
+   
+   .home-1100{
+    margin-left: 1.7vw;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -5px;
+   }
+
+   
+}
+
+
+
+@media screen and (max-width:812px) {
+    .h2-span span{
+        font-size: 15px;
+    }
+
+    .left-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .left-txt , .p{
+        width: 470px;
+    }
+
+    .home-1100{
+        margin-left: 1.9vw;
+        font-size: 18px;
+        font-weight: 700;
+       }
+}
+
+@media screen and (max-width:700px) {
+   
+
+    .left-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .credit-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       }
+       .div-credit{
+        width: 100%;
+       }
+
+       .left-txt,.p{
+        width: 380px;
+    }
+
+    .input-sapce{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .home-1100{
+        margin-left: 2.4vw;
+        font-size: 18px;
+        font-weight: 700;
+       }
+}
+
+@media screen and (max-width:600px) {
+   
+
+    .left-side{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .left-side p{
+      width: 350px;
+      text-align: start;
+    }
+    .left-txt,.p{
+        width: 300px;
+    }
+
+    
+.left-btn{
+    padding: 8px 0px ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+   }
+
+    
+   .home-1100{
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 700;
+   } 
+
+}
+
+
+
+@media screen and (max-width:522px) {
+    .left-side p{
+        width: 230px;
+        text-align: start;
+      }
+  
+      .left-txt,.p{
+        width: 300px;
+    }
+
+      .left-btn{
+        font-size: 13px;
+      }
+
+
+    .h2-span span{
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    .btn{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .h2-span span{
+        font-size: 10px;
+        margin: 10px 0px;
+    }
+
+   
+
+    .div-credit{
+        width: 100%;
+       }
+}
+
+@media screen and (max-width:515px) {
+    .apply-kara{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        gap: 10px;
+        width: 100%;
+        margin: 0% auto;
+        margin-bottom: 30px;
+    }
+
+    .left-btn{
+        font-size: 16px;
+        width: 96%;
+    }
+
+    .ye-ak{
+        width: 95.5%;
+    }
+
+}
+
+@media screen and (max-width:440px) {
+    .left-side p{
+        width: 200px;
+        text-align: start;
+      }
+  
+      .left-txt,.p{
+          width: 200px;
+      }
+
+     
+      .credit-div{
+        display: flex;
+        gap: 20px;
+        margin-right: 300px;
+    }
+
+    .input-sapce{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+
+   
+}
+
+
+@media screen and (max-width:390px) {
+.card-btn{
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+}
+
+
+
+@media screen and (max-width:800px) {
+    .side-bar{
+        width: 100%;
+    }
+    
+}
+
+
+.hoverr:hover{
+    color: #F40000;
+    
+    
+}
+
+
+
+@media screen and (max-width:3000px) {
+    .card-ki-height{
+        height: auto;
+    }
+
+    .credit-div{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,35 @@
+@media(max-width:600px){
+    .same-to{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+.jepp-btn{
+    transition: .4s ease-in-out;
+    background-color:#F40000;
+    text-align: center;
+    border: 2px solid #F40000;
+}
+
+
+
+.jepp-btn:hover{
+    background-color: black;
+    border-color: black;
+    transition: .4s ease-in-out
+}
+
+
+.gepp-black{
+    transition: .4s ease-in-out;
+    border: 2px solid #F40000;
+
+}
+
+.gepp-black:hover{
+    border-color: black;
+    transition: .4s ease-in-out;
+}

@@ -1,0 +1,260 @@
+
+.form1-back img {
+    width: 100%;
+    max-width: none;                 
+    height: 40vh; 
+    object-fit: cover; 
+  }
+
+  
+  
+.contact-infoo{
+    margin-right: 50vw;
+    display: none;
+}
+
+
+.card-btn{
+    padding: 6px 2vw;
+}
+
+.c-btn-2{
+    padding: 8px 2vw;
+}
+
+@media(max-width:1410px) {
+    .card-btn{
+        padding: 6px 1.2vw;
+    }
+    
+    .c-btn-2{
+        padding: 8px 1.2vw;
+    }
+}
+
+@media(max-width:1450px) {
+    .img-set-12{
+        width: 100%;
+        justify-content: center;
+    }
+}
+ 
+
+@media screen and (max-width:1190px) {
+    .txt-size{
+        font-size: 14px;
+    }
+
+    .card-btn{
+        padding: 4px .6vw;
+    }
+    
+    .c-btn-2{
+        padding: 6px .6vw;
+    }
+
+    .call-price{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .txt-size{
+        font-size: 12px;
+    }
+
+    .card-btn{
+        padding: 3px .5vw;
+        font-size: 13px;
+    }
+    
+    .c-btn-2{
+        padding: 5px .5vw;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width:1030px) {
+    .contact-info{
+        width: 320px;
+        
+    }
+
+    .contact-uss{
+        width: 600px;
+        margin-left: 5vw;
+    }
+
+    .card-btn{
+        padding: 4px 3vw;
+    }
+    
+    .c-btn-2{
+        padding: 6px 3vw;
+    }
+
+    .card-btn{
+        font-size: 15px;
+    }
+
+    .txt-size{
+        font-size: 14px;
+    }
+
+    .call-price{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:1026px) {
+
+
+    .contact-uss{
+        width: 600px;
+        margin-left: -1vw;
+    }
+
+    .contact-info{
+        width: 320px;
+        margin-right: -120px;
+    }
+}
+
+@media screen and (max-width:935px) {
+.card-btn{
+    font-size: 12px;
+    padding: 6px 14px;
+}
+
+.c-btn-2{
+    padding: 8px 12px;
+}
+
+.contact-info{
+    display: none;
+}
+
+.contact-infoo{
+    display: flex;
+    width:  90vw;
+    margin-left: 50vw;
+}
+
+.contact-uss{
+    width: 90vw;
+    margin-left: 10.5vw;
+}
+}
+@media screen and (max-width:840px) {
+
+
+   
+
+    .contact-info{
+        width: 260px;
+        font-size: 15px;
+        
+    }
+
+    .contact-info strong{
+        font-size: 13px;
+    }
+
+   
+    .c-btn-2{
+        padding: 8px 12px;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    
+    .apply{
+    width: 100%;
+    }
+    }
+       
+
+@media (max-width:768px){
+    .imges{
+        margin-top: -10px;
+    }
+
+    .card-btn{
+        padding: 6px 15vw;
+        font-size: 15px;
+    }
+    
+    .c-btn-2{
+        padding: 8px 15vw;
+    }
+}
+
+
+@media (max-width:600px){
+    .card-btn{
+        padding: 6px 10vw;
+        font-size: 15px;
+    }
+    
+    .c-btn-2{
+        padding: 8px 10vw;
+    }
+
+    .toranto{
+        width: 80vw;
+        margin: 10px 0px;
+    }
+
+    .invent-text span{
+        font-size: 3vw;
+    }
+
+
+    .contact-infoo{
+        display: flex;
+        width:  94vw;
+        margin-left: 52vw;
+    }
+    
+    .contact-uss{
+        width: 94vw;
+        margin-left: 10.5vw;
+    }
+}
+
+@media (max-width:420px){
+    .card-btn{
+        padding: 6px 6vw;
+        font-size: 15px;
+    }
+    
+    .c-btn-2{
+        padding: 8px 6vw;
+    }
+}
+
+@media (max-width:460px){
+    .home-sec{
+        width: 100%;
+        height: auto;
+    }
+
+    .imges{
+        margin-top: -180px;
+    }
+}
+
+@media (max-width:380px){
+    .imges{
+        margin-top: -60px;
+    }
+}
+
+
+@media (max-width:365px){
+    .imges{
+        margin-top: -140px;
+    }
+}

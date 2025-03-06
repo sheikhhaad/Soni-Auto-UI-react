@@ -1,0 +1,97 @@
+
+
+.form1-back img {
+    width: 100%; 
+    max-width: none;                
+    height: 40vh; 
+    object-fit: cover;
+  }
+
+.main2 {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.aside1, .aside2 {
+    flex: 1; 
+    padding: 10px;
+}
+
+.car1 {
+    width: 630px;
+    margin-top: 100px;
+}
+
+
+.car2{
+    width: 100%;
+    height: 460px;
+}
+
+
+.txx p{
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+@media (max-width: 3000px){
+    .car1{
+        width: 96%;
+        height: 600px;
+    }
+}
+
+
+@media (max-width: 2500px){
+    .car1{
+        width: 96%;
+        height: 450px;
+    }
+}
+
+
+
+@media (max-width: 1280px) {
+.txx-2{
+    width: 70%;
+}
+
+.car1 {
+    width: 700px;
+    margin-top: 60px;
+    height: 350px;
+
+}
+
+}
+@media (max-width: 990px) {
+    .main2 {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .aside1, .aside2 {
+        width: 100%;
+        padding: 10px 0; 
+    }
+    
+    .car1 {
+        width: 100%; 
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 600px) {
+    .main1 h1 {
+        font-size: 2.5rem; 
+    }
+
+    .main1 h3 {
+        font-size: 1.5rem; 
+    }
+}
+
+

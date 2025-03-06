@@ -1,0 +1,21 @@
+
+.last-img {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), 
+                      url('https://s3-alpha-sig.figma.com/img/21bc/ea9a/e04efd85a5394040a3732e70433c74e3?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g-fsuwtGTcflt0eR5phwzCuPoQ-DQ6LyDLuk427MrF776YMBxqcVUkinCZKMnIVGnN2u9eqzxsdmxdXEzvybaFA6b8miQgLXjYlmqEGddMwcUXnSRPuio95GsDX5hWBKJW~zItKkNBb5CAqTqoFvU3eDLgFelvo7tCubSOt7JULC8y8ccvxM~eFUMzTcVB3awRQWClN6ND2QQEutGWKCXMcE2X~WmZHJLdVz3Ng6CRsfZBnA8-Pzvi7CavrLIYjhb8KI8fqlGNpY8UsPx6~ZRpAn1AI6XWyGIK0QCwatM0JXC0hWsOUshrLWKZep906KmcDz2t99VGhl6GyxXDSpRg__');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.view-wala-card{
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+
+.view-wala-card:hover {
+    color: #F40000;
+    cursor: pointer;
+    padding: 0px 5px;
+    transition: .2s ease-in-out;
+}

@@ -1,0 +1,48 @@
+.background-img-sec-rs {
+    position: relative; 
+    background-image: url('https://s3-alpha-sig.figma.com/img/3622/f459/6fbf1c3b5f03b0183021ed04c348aeed?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T-gTj6lUoOfxB~chwPQ48QoJY-ej2ryAhZu-6pEQqZfmclmKpcb-iyGKwS9rLRDNILtKURZhJPgCTfzwwbEk4cyS8lSnxMcS7OiPABh6H8yid4sOsOoV0MOFcBjeB8dVBmE8X6jZOTOL1bW34P5wu3LNRd3KgRFjCJmtchZMjYZqNZyZ~6k77p73ZN5C3~tlVIzCFMGSbL3KN~xbOzivEKl-cF~Y1zCdwR6bmVIBlt2ljwh7tPK8XTDZBoqwC3UIbyw3D7D10c4A~dHAjPNas9akCrKQ2QlVJi1fpSS5VC2FAff5Q7LMXXe2vzTtWKP3EtVhEOCtcevjNMFuENB2AA__');
+    background-size: cover;
+    background-position: center;
+    height: 464px;
+    margin-top: 30px;
+}
+
+.background-img-sec-rs::before {
+    content: ""; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    right: 0;  
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1; 
+}
+
+.hover-waly-nav{
+    background-color: #F40000;
+    }
+.hover-waly-nav:hover{
+    background-color: red;
+    color:  white;
+    }
+
+
+
+@media (max-width: 640px) {
+    .background-img-sec-rs {
+        height: auto; 
+        padding: 20px 0px;
+    }
+    .text-2xl {
+        font-size: 1.5rem;
+    }
+}
+
+
+.text-white {
+    color: #ffffff; 
+}
+
+.text-dark {
+    color: #000000; 
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import './DealerShip.css';
+import '../screens/Dealership.css'; // Import the CSS file for styling
 
 const DealerShip = () => {
   return (

@@ -1,5 +1,6 @@
-import './DealerShip.css';
+import React from 'react';
 import Footer from '../components/Footer';
+import './DealerShip.css';
 
 const DealerShip = () => {
   return (
